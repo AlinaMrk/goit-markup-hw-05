@@ -53,7 +53,18 @@
         <section class="hero">
             <div class="container hero-container">
                 <h1 class="hero-title">Эффективные решения</br>для вашего бизнеса</h1>
-                <button class="button hero" type="button">Заказать услугу</button>
+                <button data-modal-open class="button" type="button btn">Заказать услугу</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal-close">
+                        <button type="button" class="close" data-modal-close>
+                            <svg class="close-icon" width="11px" height="11px">
+                                <use href="./images/symbol-defs.svg#close"> </use>
+                            </svg>
+                        </button>
+                        <p> </p>
+
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Секция детали -->
@@ -111,16 +122,16 @@
                 <h2 class="info-title">Чем мы занимаемся</h2>
                 <ul class="info-list list">
                     <li class="info-item">
-                        <img src="images/photo-box-1.jpg" alt="специалист пишет код " width="370" height="294"
-                            class="info-img" />
+                        <img src="./images/photo-box-1.jpg" alt="специалист пишет код " width="370" height="294" />
+                        <p class="title-text">Десктопные приложения</p>
                     </li>
                     <li class="info-item">
-                        <img src="images/photo-box-2.jpg" alt="тестировщик тестует код " width="370" height="294"
-                            class="info-img" />
+                        <img src="./images/photo-box-2.jpg" alt="тестировщик тестует код " width="370" height="294" />
+                        <p class="title-text">Мобильные приложения</p>
                     </li>
                     <li class="info-item">
-                        <img src="images/photo-box-3.jpg" alt="архитектор рисует проект " width="370" height="294"
-                            class="info-img" />
+                        <img src="./images/photo-box-3.jpg" alt="архитектор рисует проект " width="370" height="294" />
+                        <p class="title-text">Дизайнерские решения</p>
                     </li>
                 </ul>
             </div>
