@@ -128,11 +128,13 @@ ul {
 .header-link:focus {
   color: var(--accent-color);
 }
-.current {
+.navigation .header-link.current {
   color: var(--accent-color);
+}
+.header-link {
   position: relative;
 }
-.current::after {
+.header-link.current::after {
   display: block;
   content: '';
   width: 100%;
@@ -142,6 +144,13 @@ ul {
   border-radius: 2px;
   bottom: -1px;
 }
+/*.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.link {
+  position: relative;
+}*/
 /*-------contacts-header-------*/
 
 .contacts {
@@ -294,12 +303,14 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+
+  padding: 11px 32px;
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
   color: var(--primary-title-color);
 
-  width: 200px;
+  /*width: 200px;*/
   height: 50px;
   background: #2196f3;
 
@@ -698,7 +709,7 @@ ul {
   padding: 6px 22px;
   min-width: 73px;
 
-  width: 130px;
+  /*width: 130px;*/
   height: 38px;
   border-radius: 4px;
   background-color: #f5f4fa;
