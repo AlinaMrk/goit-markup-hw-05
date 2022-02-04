@@ -307,17 +307,6 @@ ul {
   border: transparent;
 }
 
-/*.button {
-  color: var(--primary-title-color);
-  background-color: var(--accent-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  padding: 11px 32px;
-  min-width: 200px;
-  text-align: center;
-}*/
-
 /*------features-----*/
 .feature-icons {
   display: flex;
@@ -677,9 +666,6 @@ ul {
   display: flex;
 }
 
-/*.footer-social {
-  margin: 12px 0 0 70px;
-}*/
 .footer-icon.link:hover,
 .footer-icon.link:focus {
   background-color: var(--accent-color);
