@@ -144,13 +144,6 @@ ul {
   border-radius: 2px;
   bottom: -1px;
 }
-/*.site-nav .link.current {
-  color: var(--accent-color);
-}
-
-.link {
-  position: relative;
-}*/
 /*-------contacts-header-------*/
 
 .contacts {
@@ -736,6 +729,9 @@ ul {
 .images-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: inherit;
+
   margin-right: -30px;
   margin-bottom: -30px;
 }
